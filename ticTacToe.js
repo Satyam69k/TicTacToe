@@ -57,13 +57,6 @@ const showWinner = (winner) => {
 
 const checkWinner = () => {
     for(let pattern of winPatterns) {
-        // console.log(pattern[0],pattern[1],pattern[2]); //to access the winning patterns
-        // console.log(boxes[pattern[0]],boxes[pattern[1]],boxes[pattern[2]]); //to access individual boxes according to win pattern
-        // console.log(
-        //     boxes[pattern[0]].innerText,
-        //     boxes[pattern[1]].innerText,
-        //     boxes[pattern[2]].innerText
-        // ); // to access the content of box according to win pattern.
         let pos1val = boxes[pattern[0]].innerText;
         let pos2val = boxes[pattern[1]].innerText;
         let pos3val = boxes[pattern[2]].innerText;
